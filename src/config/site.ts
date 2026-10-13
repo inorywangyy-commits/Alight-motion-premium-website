@@ -1,5 +1,5 @@
 export const siteConfig = {
-  siteUrl: "https://noriwangyyamprem.netlify.app",
+  siteUrl: "https://alight-motion-premium-nimzz.vercel.app",
   siteName: "Alight Motion Premium Creator",
   title: "Alight Motion Premium Creator",
   description:
