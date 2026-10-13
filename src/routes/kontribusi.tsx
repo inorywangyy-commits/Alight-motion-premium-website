@@ -3,17 +3,17 @@ import { createFileRoute } from "@tanstack/react-router";
 import { absoluteUrl, siteConfig } from "@/config/site";
 
 const description =
-  "Halaman kontribusi — ucapan terima kasih kepada Nimzz, pembuat dan pengelola layanan Alight Motion Premium Creator.";
+  "Halaman kontribusi — ucapan terima kasih kepada Noriwangyy, pembuat dan pengelola layanan Alight Motion Premium Creator.";
 
 const socialLinks = [
   {
     label: "WhatsApp Channel",
     icon: "fa-brands fa-whatsapp",
-    href: "https://whatsapp.com/channel/0029VbBhZWdGJP8HlbGaE63Q",
+    href: "https://whatsapp.com/channel/0029VakY7LgB4hdLcX0y0K0J",
   },
-  { label: "TikTok", icon: "fa-brands fa-tiktok", href: "https://tiktok.com/@nimzz_bocil_pokemon" },
-  { label: "Telegram", icon: "fa-brands fa-telegram", href: "https://t.me/Nimzz4" },
-  { label: "GitHub", icon: "fa-brands fa-github", href: "https://github.com/Nimzz-pemboy" },
+  { label: "TikTok", icon: "fa-brands fa-tiktok", href: "https://tiktok.com/@_noriwangyy" },
+  { label: "Telegram", icon: "fa-brands fa-telegram", href: "https://t.me/noriwangyy" },
+  { label: "GitHub", icon: "fa-brands fa-github", href: "https://github.com/" },
 ];
 
 export const Route = createFileRoute("/kontribusi")({
@@ -36,7 +36,7 @@ function KontribusiPage() {
       <div className="relative h-48 w-full overflow-hidden sm:h-64">
         <img
           src="/banner.jpg"
-          alt="Banner Nimzz"
+          alt="Banner Noriwangyy"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
@@ -49,20 +49,20 @@ function KontribusiPage() {
         >
           <img
             src="/avatar.jpg"
-            alt="Avatar Nimzz"
+            alt="Avatar Noriwangyy"
             width={736}
             height={736}
             className="absolute inset-0 h-full w-full object-cover"
           />
         </div>
 
-        <h1 className="mt-5 text-3xl font-bold text-foreground sm:text-4xl">Nimzz</h1>
+        <h1 className="mt-5 text-3xl font-bold text-foreground sm:text-4xl">Noriwangyy</h1>
         <p className="mt-2 text-sm text-muted-foreground">Pembuat & Pengelola Layanan</p>
 
         <p className="mt-6 max-w-lg text-sm leading-relaxed text-muted-foreground">
           Terima kasih sudah menggunakan {siteConfig.siteName}. Layanan ini dibangun, dirawat, dan
           dikembangkan sendiri oleh {siteConfig.author} di waktu luang — mulai dari sistem
-          aktivasi, panduan, sampai dukungan lewat Nimzz AI. Dukungan dan kepercayaan kamu adalah
+          aktivasi, panduan, sampai dukungan lewat Noriwangyy AI. Dukungan dan kepercayaan kamu adalah
           alasan layanan ini terus berjalan.
         </p>
 
@@ -75,7 +75,7 @@ function KontribusiPage() {
 
         <div className="mt-10 w-full max-w-sm">
           <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-            Terhubung dengan Nimzz
+            Terhubung dengan Noriwangyy
           </p>
           <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
             {socialLinks.map((link) => (

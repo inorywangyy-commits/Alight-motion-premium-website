@@ -28,7 +28,7 @@ function DonasiPage() {
         <h1 className="text-3xl font-semibold sm:text-4xl">Donasi 💖</h1>
         <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
           Layanan ini gratis dan dirawat sendiri di waktu luang. Kalau kamu merasa terbantu dan
-          ingin traktir Nimzz kopi atau sekadar kasih semangat, donasi lewat QRIS di bawah ini
+          ingin traktir Noriwangyy kopi atau sekadar kasih semangat, donasi lewat QRIS di bawah ini
           bakal sangat berarti. Setiap dukungan, sekecil apa pun, bikin layanan ini bisa terus
           hidup untuk kamu dan yang lain. Makasih sebelumnya! 🥰
         </p>
@@ -37,10 +37,10 @@ function DonasiPage() {
       <div className="mx-auto mt-8 max-w-sm">
         <img
           src="/qris.jpg"
-          alt="QRIS Nimzz Store — scan untuk donasi"
+          alt="QRIS Noriwangyy  — scan untuk donasi"
           className="w-full rounded-lg border border-border"
         />
-        <a href="/qris.jpg" download="qris-nimzz.jpg" className="mt-4 block">
+        <a href="/qris.jpg" download="qris-Noriwangyy.jpg" className="mt-4 block">
           <Button variant="outline" className="w-full gap-2">
             <i className="fa-solid fa-download" aria-hidden="true" />
             Unduh QRIS

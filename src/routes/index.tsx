@@ -10,7 +10,7 @@ import { siteConfig, absoluteUrl } from "@/config/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alight Motion Premium Creator — Panduan Gratis oleh Nimzz" },
+      { title: "Alight Motion Premium Creator — Panduan Gratis oleh Noriwangyy" },
       { name: "description", content: siteConfig.description },
       { name: "keywords", content: siteConfig.keywords },
       { name: "author", content: siteConfig.author },
