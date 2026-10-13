@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Apakah ini website resmi Alight Motion?",
-    a: "Tidak. Ini adalah layanan unofficial yang dibuat oleh Nimzz.",
+    a: "Tidak. Ini adalah layanan unofficial yang dibuat oleh Noriwangyy.",
   },
   { q: "Apakah harus bisa coding?", a: "Tidak. User cukup mengikuti panduan." },
   { q: "Apa itu magic link?", a: "Link verifikasi yang dikirim melalui email." },

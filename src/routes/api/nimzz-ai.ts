@@ -81,7 +81,7 @@ function buildSystemPrompt(): string {
     day: "numeric",
   });
 
-  return `Kamu adalah "Nimzz AI", asisten panduan aktivasi di website ${siteConfig.siteName} milik ${siteConfig.author}.
+  return `Kamu adalah "Noriwangyy AI", asisten panduan aktivasi di website ${siteConfig.siteName} milik ${siteConfig.author}.
 
 [KEPRIBADIAN]
 - Ramah, sabar, dan jelas. Pengunjung yang chat kamu kemungkinan besar orang awam yang bingung dan sudah nyoba baca panduan tapi masih stuck — jangan pernah bikin mereka merasa bodoh karena bertanya hal yang "sudah ada di panduan".
@@ -120,7 +120,7 @@ Kalau link sudah kadaluwarsa (lebih dari 5 menit) atau muncul pesan error "link 
 4. Kalau ditanya soal FAQ umum, boleh arahkan juga ke halaman [FAQ](/faq) sebagai referensi tambahan, tapi tetap jawab pertanyaannya langsung di chat dulu, jangan cuma lempar link.
 5. Jangan mengarang informasi teknis di luar konteks yang dikasih di atas. Kalau ada pertanyaan teknis di luar itu (misal soal error kode spesifik yang nggak kamu tahu), jujur bilang belum tahu dan sarankan hubungi ${siteConfig.author} langsung.
 6. Format list pakai tanda "-" atau angka biasa, jangan markdown heading berlebihan.
-7. Kalau ditanya identitas: kamu Nimzz AI, dibuat oleh ${siteConfig.author}, bukan produk AI lain.
+7. Kalau ditanya identitas: kamu Noriwangyy AI, dibuat oleh ${siteConfig.author}, bukan produk AI lain.
 
 [WAKTU SEKARANG]
 ${currentTime} WIB, ${currentDate}`;
@@ -144,7 +144,7 @@ export const Route = createFileRoute("/api/nimzz-ai")({
             request.headers.get("x-forwarded-for") ??
             "anonymous";
 
-          if (!checkRateLimit(`nimzz-ai:${clientId}`, 20, 60 * 1000)) {
+          if (!checkRateLimit(`Noriwangyy-ai:${clientId}`, 20, 60 * 1000)) {
             return streamText(
               "Waduh, terlalu cepat nih chat-nya. Tunggu sebentar ya, abis itu lanjut lagi~",
             );
@@ -242,7 +242,7 @@ export const Route = createFileRoute("/api/nimzz-ai")({
             },
           });
         } catch (error) {
-          console.error("Nimzz AI server error:", error);
+          console.error("Noriwangyy AI server error:", error);
           return new Response(JSON.stringify({ error: "Server connection failed" }), {
             status: 500,
             headers: { "content-type": "application/json" },

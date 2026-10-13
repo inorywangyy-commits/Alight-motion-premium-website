@@ -9,7 +9,7 @@ const STORAGE_KEY = "nimzz_ai_chat_history";
 const INITIAL_MESSAGE: ChatMessage = {
   role: "assistant",
   content:
-    "Haii, aku Nimzz AI \u{1F44B} Kalau kamu stuck pas proses aktivasi \u2014 terutama bagian abis kirim link, harus ngapain \u2014 tanya aku aja di sini, aku bantu step by step.",
+    "Haii, aku Noriwangyy AI \u{1F44B} Kalau kamu stuck pas proses aktivasi \u2014 terutama bagian abis kirim link, harus ngapain \u2014 tanya aku aja di sini, aku bantu step by step.",
 };
 
 const SUGGESTIONS = [
@@ -213,7 +213,7 @@ export function NimzzAI() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder={isLoading ? "Nimzz AI lagi mikir..." : "Tulis pertanyaanmu..."}
+              placeholder={isLoading ? "Noriwangyy AI lagi mikir..." : "Tulis pertanyaanmu..."}
               disabled={isLoading}
               className="flex-1 rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
             />
@@ -226,7 +226,7 @@ export function NimzzAI() {
 
       <button
         onClick={() => setIsOpen((v) => !v)}
-        aria-label={isOpen ? "Tutup Nimzz AI" : "Buka Nimzz AI"}
+        aria-label={isOpen ? "Tutup Noriwangyy AI" : "Buka Noriwangyy AI"}
         className="flex size-14 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg transition-transform hover:scale-105 active:scale-95"
       >
         <i
