@@ -8,7 +8,7 @@ export function Disclaimer() {
         </h2>
         <div className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">
           <p>
-            Website ini merupakan layanan unofficial yang dibuat oleh Nimzz dan bukan merupakan
+            Website ini merupakan layanan unofficial yang dibuat oleh Noriwangyy dan bukan merupakan
             website resmi Alight Motion atau Alight Creative.
           </p>
           <p>Layanan disediakan secara gratis dan tidak untuk diperjualbelikan.</p>

@@ -152,7 +152,7 @@ export function DonationForm() {
               id="note"
               value={note}
               onChange={(e) => setNote(e.target.value)}
-              placeholder="Tulis pesan, semangat, atau doa buat Nimzz di sini~"
+              placeholder="Tulis pesan, semangat, atau doa buat Noriwangyy di sini~"
               maxLength={500}
               rows={3}
             />

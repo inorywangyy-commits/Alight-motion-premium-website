@@ -26,7 +26,7 @@ export function Footer() {
             />
             <span className="font-semibold">Alight Motion Premium Creator</span>
           </div>
-          <p className="mt-3 text-sm text-muted-foreground">Created by Nimzz</p>
+          <p className="mt-3 text-sm text-muted-foreground">Created by Noriwangyy</p>
           <p className="mt-1 text-sm text-muted-foreground">Free • Unofficial • Not for Resale</p>
         </div>
 
@@ -46,7 +46,7 @@ export function Footer() {
         </nav>
       </div>
       <div className="container-page border-t border-border py-6 text-xs leading-relaxed text-muted-foreground">
-        Layanan unofficial oleh Nimzz. Tidak berafiliasi dengan Alight Creative / Alight Motion.
+        Layanan unofficial oleh Noriwangyy. Tidak berafiliasi dengan Alight Creative / Alight Motion.
       </div>
     </footer>
   );
